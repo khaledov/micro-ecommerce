@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Repositories
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <seealso cref="Catalog.API.Repositories.IProductRepository" />
     public class ProductRepository : IProductRepository
     {
         private readonly ICatalogContext _catalogContext;
